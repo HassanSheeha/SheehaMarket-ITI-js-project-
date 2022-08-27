@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./styling/all.min.css" />
+		<link rel="stylesheet" href="./styling/styling.css" />
+		<title>Contact Us</title>
+	</head>
+	<body>
+		<!-- nav bar -->
+		<nav id="navContact">
+			<div><img class="logo" src="./styling/imgs/logo.png" alt="" /></div>
+			<div class="navLinks">
+				<div><a href="./index.html">Home</a></div>
+				<div><a href="./about.html">About Us</a></div>
+				<div><a href="./contactUs.html">Contact Us</a></div>
+			</div>
+		</nav>
+		<!-- page 1 -->
+		<section class="section4">
+			<!-- form -->
+			<div id="formContainer">
+				<form>
+					<h4>please leave your information and we'll contact you soon</h4>
+					<label id="nameVal" for="name"> *Name is not valid</label>
+					<label id="nameReq" for="name"> *Name is required</label>
+					<input placeholder="Full Name.." id="name" type="text" />
+					<label id="emailVal" for="email"> *Email is not Valid</label>
+					<label id="emailReq" for="email"> *Email is required</label>
+					<input placeholder="Email.." id="email" type="text" />
+					<label id="phoneVal" for="phone"> *phone number is not Valid</label>
+					<label id="phoneReq" for="phone"> *phone number is required</label>
+					<input placeholder="phone Number.." id="phone" type="text" />
+					<textarea
+						placeholder="Comments.."
+						id="comment"
+						cols="20"
+						rows="5"
+					></textarea>
+
+					<button type="submit">Contact Us</button>
+				</form>
+			</div>
+		</section>
+		<!-- footer -->
+		<footer>
+			<div class="parent">
+				<div>
+					<h3>Address</h3>
+					<h5>
+						<i class="fa-solid fa-location-dot"></i> 35th of muhamed nagi st.
+						Mansoura,Egypt
+					</h5>
+				</div>
+				<div>
+					<h3>Numbers</h3>
+					<h5><i class="fa-solid fa-square-phone"></i> 01004000232</h5>
+					<h5><i class="fa-solid fa-square-phone"></i> 01150924080</h5>
+				</div>
+				<div>
+					<h3>legal</h3>
+					<h5>
+						<i class="fa-solid fa-file-contract"></i>
+						<a href="#">Terms</a>
+					</h5>
+					<h5>
+						<i class="fa-solid fa-file-contract"></i>
+						<a href="#">Conditons</a>
+					</h5>
+					<h5>
+						<i class="fa-solid fa-file-contract"></i>
+						<a href="#">Privacy</a>
+					</h5>
+				</div>
+			</div>
+			<div class="parent">
+				<div class="social">
+					<a href="https://www.facebook.com/" target="_blank">
+						<i class="fa-brands fa-facebook"></i>
+					</a>
+					<a href="https://twitter.com/" target="_blank"
+						><i class="fa-brands fa-twitter"></i>
+					</a>
+					<a href="https://www.instagram.com/" target="_blank"
+						><i class="fa-brands fa-instagram"></i>
+					</a>
+					<a href="https://www.linkedin.com/" target="_blank"
+						><i class="fa-brands fa-linkedin"></i>
+					</a>
+				</div>
+				<div id="topContact" class="toTop">
+					<i class="fa-solid fa-circle-arrow-up"></i>
+				</div>
+			</div>
+			<div class="copyRight">Designed by: Hassan Sheeha&copy;</div>
+		</footer>
+		<script src="./JavaScript/contactDemo.js"></script>
+	</body>
+</html>
