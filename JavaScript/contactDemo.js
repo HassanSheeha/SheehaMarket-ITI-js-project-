@@ -15,7 +15,7 @@ var emailReq = document.getElementById("emailReq");
 
 var phone = document.getElementById("phone");
 var phoneVal = document.getElementById("phoneVal");
-var regexPhone = /01[0-2][0-9]/i;
+var regexPhone = /01[0-2][0-9]{8}/i;
 var phoneReq = document.getElementById("phoneReq");
 
 var message = document.getElementsByTagName("label");
